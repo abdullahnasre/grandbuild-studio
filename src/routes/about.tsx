@@ -22,10 +22,10 @@ const values = [
 ];
 
 const timeline = [
-  { year: "2001", event: "Founded in Dubai as a residential contractor" },
+  { year: "2001", event: "Founded in Munich as a residential contractor" },
   { year: "2007", event: "Expanded into commercial and infrastructure" },
   { year: "2012", event: "First mega-project: Al-Bahar Financial District" },
-  { year: "2016", event: "Riyadh and Doha offices open" },
+  { year: "2016", event: "Stuttgart and Frankfurt offices open" },
   { year: "2020", event: "ISO 45001 certification; zero-harm program" },
   { year: "2024", event: "400th project delivered; 3,200-strong workforce" },
 ];
