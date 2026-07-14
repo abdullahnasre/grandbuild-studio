@@ -36,7 +36,7 @@ function AboutPage() {
       <PageHero
         eyebrow="Our Story"
         title={<>Twenty-five years of <span className="text-gold-gradient">building trust.</span></>}
-        description="Meridian Construction Group was founded in 2001 in Dubai with a single conviction: every landmark starts with a promise kept. Today, we deliver commercial, industrial, residential and infrastructure projects across Germany and Central Europe."
+        description="Meridian Construction Group was founded in 2001 in Munich with a single conviction: every landmark starts with a promise kept. Today, we deliver commercial, industrial, residential and infrastructure projects across Germany and Central Europe."
         crumbs={[{ label: "About" }]}
       />
 
@@ -101,7 +101,7 @@ function AboutPage() {
               "ISO 9001:2015 Quality",
               "ISO 14001 Environment",
               "ISO 45001 Safety",
-              "MEED Contractor of the Year 2023",
+              "Deutscher Baupreis 2023",
               "ENR Global Top 250",
               "LEED Accredited Firm",
               "Bauindustrie Verband Member",
