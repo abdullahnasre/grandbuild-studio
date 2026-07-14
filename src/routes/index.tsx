@@ -3,6 +3,8 @@ import { ArrowRight, Building2, Factory, Home, Route as RouteIcon, HardHat, Comp
 import heroImg from "@/assets/hero-construction.jpg";
 import commercialImg from "@/assets/project-commercial.jpg";
 import residentialImg from "@/assets/project-residential.jpg";
+import modernHouseImg from "@/assets/project-house-modern.jpg";
+import fachwerkImg from "@/assets/project-fachwerk.jpg";
 import industrialImg from "@/assets/project-industrial.jpg";
 import infrastructureImg from "@/assets/project-infrastructure.jpg";
 import healthcareImg from "@/assets/project-healthcare.jpg";
@@ -35,12 +37,12 @@ const services = [
 ];
 
 const projects = [
-  { img: commercialImg, tag: "Commercial", title: "Marina Business Tower", loc: "Dubai, UAE", year: "2024" },
-  { img: residentialImg, tag: "Residential", title: "Vertika Skyline Residences", loc: "Riyadh, KSA", year: "2024" },
-  { img: infrastructureImg, tag: "Infrastructure", title: "Al-Khobar Coastal Bridge", loc: "Eastern Province, KSA", year: "2023" },
-  { img: industrialImg, tag: "Industrial", title: "Delta Petrochemical Plant", loc: "Doha, Qatar", year: "2023" },
-  { img: healthcareImg, tag: "Healthcare", title: "New Cairo Medical City", loc: "Cairo, Egypt", year: "2022" },
-  { img: commercialImg, tag: "Commercial", title: "Downtown Financial Center", loc: "Dubai, UAE", year: "2022" },
+  { img: commercialImg, tag: "Commercial", title: "Isar Business Tower", loc: "Munich, Germany", year: "2024" },
+  { img: residentialImg, tag: "Residential", title: "Altstadt Heritage Residences", loc: "Stuttgart, Germany", year: "2024" },
+  { img: infrastructureImg, tag: "Infrastructure", title: "Rhein-Main Motorway Bridge", loc: "Frankfurt, Germany", year: "2023" },
+  { img: modernHouseImg, tag: "Residential", title: "Feldkirchen Family Estates", loc: "Munich, Germany", year: "2023" },
+  { img: healthcareImg, tag: "Healthcare", title: "Berlin Charité Medical Wing", loc: "Berlin, Germany", year: "2022" },
+  { img: fachwerkImg, tag: "Heritage", title: "Altstadt Fachwerk Restoration", loc: "Nuremberg, Germany", year: "2022" },
 ];
 
 function HomePage() {
