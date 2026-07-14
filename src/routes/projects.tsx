@@ -4,6 +4,8 @@ import { useState } from "react";
 import { MapPin, Calendar, DollarSign, ArrowRight } from "lucide-react";
 import commercialImg from "@/assets/project-commercial.jpg";
 import residentialImg from "@/assets/project-residential.jpg";
+import modernHouseImg from "@/assets/project-house-modern.jpg";
+import fachwerkImg from "@/assets/project-fachwerk.jpg";
 import industrialImg from "@/assets/project-industrial.jpg";
 import infrastructureImg from "@/assets/project-infrastructure.jpg";
 import healthcareImg from "@/assets/project-healthcare.jpg";
@@ -27,15 +29,15 @@ type Filter = (typeof filters)[number];
 const projects: {
   img: string; title: string; category: Exclude<Filter, "All">; loc: string; year: string; budget: string; status: "Completed" | "Ongoing" | "Upcoming";
 }[] = [
-  { img: commercialImg, title: "Marina Business Tower", category: "Commercial", loc: "Dubai, UAE", year: "2024", budget: "$420M", status: "Completed" },
-  { img: residentialImg, title: "Vertika Skyline Residences", category: "Residential", loc: "Riyadh, KSA", year: "2024", budget: "$310M", status: "Completed" },
-  { img: infrastructureImg, title: "Al-Khobar Coastal Bridge", category: "Infrastructure", loc: "Eastern Province, KSA", year: "2023", budget: "$680M", status: "Completed" },
-  { img: industrialImg, title: "Delta Petrochemical Plant", category: "Industrial", loc: "Doha, Qatar", year: "2023", budget: "$1.2B", status: "Completed" },
-  { img: healthcareImg, title: "New Cairo Medical City", category: "Healthcare", loc: "Cairo, Egypt", year: "2022", budget: "$540M", status: "Completed" },
-  { img: commercialImg, title: "Downtown Financial Center", category: "Commercial", loc: "Dubai, UAE", year: "2025", budget: "$780M", status: "Ongoing" },
-  { img: residentialImg, title: "Palm Ridge Villas", category: "Residential", loc: "Doha, Qatar", year: "2025", budget: "$220M", status: "Ongoing" },
-  { img: infrastructureImg, title: "Nile Delta Water Network", category: "Infrastructure", loc: "Alexandria, Egypt", year: "2026", budget: "$450M", status: "Upcoming" },
-  { img: industrialImg, title: "Jubail Logistics Hub", category: "Industrial", loc: "Jubail, KSA", year: "2026", budget: "$390M", status: "Upcoming" },
+  { img: commercialImg, title: "Isar Business Tower", category: "Commercial", loc: "Munich, Germany", year: "2024", budget: "€380M", status: "Completed" },
+  { img: residentialImg, title: "Altstadt Heritage Residences", category: "Residential", loc: "Stuttgart, Germany", year: "2024", budget: "€260M", status: "Completed" },
+  { img: infrastructureImg, title: "Rhein-Main Motorway Bridge", category: "Infrastructure", loc: "Frankfurt, Germany", year: "2023", budget: "€540M", status: "Completed" },
+  { img: industrialImg, title: "Neckar Chemical Facility", category: "Industrial", loc: "Ludwigshafen, Germany", year: "2023", budget: "€980M", status: "Completed" },
+  { img: healthcareImg, title: "Berlin Charité Medical Wing", category: "Healthcare", loc: "Berlin, Germany", year: "2022", budget: "€420M", status: "Completed" },
+  { img: modernHouseImg, title: "Feldkirchen Family Estates", category: "Residential", loc: "Munich, Germany", year: "2025", budget: "€180M", status: "Ongoing" },
+  { img: commercialImg, title: "Frankfurt Skyline Financial Center", category: "Commercial", loc: "Frankfurt, Germany", year: "2025", budget: "€690M", status: "Ongoing" },
+  { img: fachwerkImg, title: "Altstadt Fachwerk Restoration", category: "Residential", loc: "Nuremberg, Germany", year: "2026", budget: "€45M", status: "Upcoming" },
+  { img: industrialImg, title: "Stuttgart Logistics Hub", category: "Industrial", loc: "Stuttgart, Germany", year: "2026", budget: "€310M", status: "Upcoming" },
 ];
 
 const statusColors: Record<string, string> = {
