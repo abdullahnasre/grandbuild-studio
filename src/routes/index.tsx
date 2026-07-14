@@ -215,7 +215,7 @@ function HomePage() {
         <div className="container-x">
           <p className="text-center text-xs uppercase tracking-[0.3em] text-muted-foreground">Trusted by leading developers, governments and investors</p>
           <div className="mt-8 grid grid-cols-2 md:grid-cols-6 gap-8 items-center">
-            {["EMAAR", "ARAMCO", "QATAR ENERGY", "DP WORLD", "MEEZAN", "NILE HOLDINGS"].map((p) => (
+            {["SIEMENS", "BASF", "DEUTSCHE BAHN", "ALLIANZ", "BMW GROUP", "VONOVIA"].map((p) => (
               <div key={p} className="text-center font-display font-bold text-sm tracking-widest text-muted-foreground/70 hover:text-charcoal transition">{p}</div>
             ))}
           </div>
