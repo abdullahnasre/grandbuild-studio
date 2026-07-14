@@ -13,7 +13,7 @@ export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
       { title: "Projects — Meridian Construction Group" },
-      { name: "description", content: "A selected portfolio of commercial, residential, industrial, infrastructure, healthcare, education and government projects delivered across MENA." },
+      { name: "description", content: "A selected portfolio of commercial, residential, industrial, infrastructure, healthcare, education and government projects delivered across Germany." },
       { property: "og:title", content: "Projects — Meridian Construction Group" },
     ],
     links: [{ rel: "canonical", href: "/projects" }],
@@ -53,7 +53,7 @@ function ProjectsPage() {
       <PageHero
         eyebrow="Portfolio"
         title={<>Landmarks that <span className="text-gold-gradient">define skylines.</span></>}
-        description="A selection of projects delivered by Meridian across the Middle East and North Africa — filtered by sector."
+        description="A selection of projects delivered by Meridian across Germany and Central Europe — filtered by sector."
         crumbs={[{ label: "Projects" }]}
       />
 

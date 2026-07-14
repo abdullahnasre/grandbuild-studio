@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — Meridian Construction Group" },
-      { name: "description", content: "Founded in 2001, Meridian Construction Group has built landmarks across the Middle East and North Africa with precision engineering and integrity." },
+      { name: "description", content: "Founded in 2001, Meridian Construction Group has built landmarks across Germany and Central Europe with precision engineering and integrity." },
       { property: "og:title", content: "About — Meridian Construction Group" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/about")({
 
 const values = [
   { Icon: Target, title: "Mission", desc: "Build enduring infrastructure that elevates communities and creates lasting value for clients, partners and generations." },
-  { Icon: Eye, title: "Vision", desc: "To be the most trusted construction partner across MENA — the standard against which the industry measures itself." },
+  { Icon: Eye, title: "Vision", desc: "To be the most trusted construction partner across Germany — the standard against which the industry measures itself." },
   { Icon: Heart, title: "Core Values", desc: "Integrity. Safety. Precision. Accountability. Craft. These five principles govern every decision we make." },
 ];
 
@@ -36,7 +36,7 @@ function AboutPage() {
       <PageHero
         eyebrow="Our Story"
         title={<>Twenty-five years of <span className="text-gold-gradient">building trust.</span></>}
-        description="Meridian Construction Group was founded in 2001 in Dubai with a single conviction: every landmark starts with a promise kept. Today, we deliver commercial, industrial, residential and infrastructure projects across the Middle East and North Africa."
+        description="Meridian Construction Group was founded in 2001 in Dubai with a single conviction: every landmark starts with a promise kept. Today, we deliver commercial, industrial, residential and infrastructure projects across Germany and Central Europe."
         crumbs={[{ label: "About" }]}
       />
 

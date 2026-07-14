@@ -78,10 +78,10 @@ function ContactPage() {
 
           {/* Contact panel */}
           <div className="space-y-4">
-            <ContactItem Icon={Phone} title="Speak with us" value="+971 4 555 0180" hint="Sun – Thu, 08:00 – 18:00 GST" />
-            <ContactItem Icon={Mail} title="Email" value="contact@meridian-build.com" hint="We respond within one business day" />
+            <ContactItem Icon={Phone} title="Speak with us" value="+971 4 555 0180" hint="Mon – Fri, 08:00 – 18:00 CET" />
+            <ContactItem Icon={Mail} title="Email" value="contact@meridian-bau.de" hint="We respond within one business day" />
             <ContactItem Icon={MessageCircle} title="WhatsApp" value="+971 50 555 0180" hint="Business inquiries only" />
-            <ContactItem Icon={Clock} title="Working hours" value="Sun – Thu · 08:00 – 18:00" hint="Regional offices follow local calendars" />
+            <ContactItem Icon={Clock} title="Working hours" value="Mon – Fri · 08:00 – 18:00" hint="Regional offices follow local calendars" />
           </div>
         </div>
       </section>

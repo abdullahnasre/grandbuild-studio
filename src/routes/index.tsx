@@ -61,7 +61,7 @@ function HomePage() {
               with <span className="text-gold-gradient">Precision</span> & Excellence
             </h1>
             <p className="mt-8 max-w-2xl text-lg md:text-xl text-white/80 leading-relaxed">
-              Delivering innovative construction solutions for commercial, industrial, residential and infrastructure projects across the Middle East and North Africa.
+              Delivering innovative construction solutions for commercial, industrial, residential and infrastructure projects across Germany and Central Europe.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link to="/contact" className="btn-gold">Get a Free Quote <ArrowRight className="h-4 w-4" /></Link>
@@ -191,7 +191,7 @@ function HomePage() {
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
               { name: "Khalid Al-Rashid", role: "Chairman, Rashid Holdings", quote: "Meridian delivered our flagship tower six weeks ahead of schedule. Their integrated engineering approach saved us millions." },
-              { name: "Amira Kassem", role: "CEO, Nile Realty", quote: "In fifteen years of developing across MENA, I have not worked with a more disciplined contractor. They own every detail." },
+              { name: "Amira Kassem", role: "CEO, Nile Realty", quote: "In fifteen years of developing across Germany, I have not worked with a more disciplined contractor. They own every detail." },
               { name: "James Whitfield", role: "Director, Aramco Ventures", quote: "Their safety record and QA/QC on our petrochemical facility set a new bar for our supply chain." },
             ].map((t) => (
               <figure key={t.name} className="relative p-8 md:p-10 border border-border rounded-sm bg-secondary/30">

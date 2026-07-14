@@ -7,7 +7,7 @@ export const Route = createFileRoute("/careers")({
   head: () => ({
     meta: [
       { title: "Careers — Meridian Construction Group" },
-      { name: "description", content: "Join 3,200+ engineers, project managers and specialists building landmarks across MENA. Explore open roles at Meridian." },
+      { name: "description", content: "Join 3,200+ engineers, project managers and specialists building landmarks across Germany. Explore open roles at Meridian." },
       { property: "og:title", content: "Careers — Meridian Construction Group" },
     ],
     links: [{ rel: "canonical", href: "/careers" }],
