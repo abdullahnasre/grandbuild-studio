@@ -79,28 +79,23 @@ export function SiteHeader() {
         </Link>
 
         <nav className="hidden lg:flex items-center justify-center gap-1">
-          {navLinks.map((l) => (
-            <Link
-              key={l.to}
-              to={l.to}
-              className={`px-4 py-2 text-sm font-medium tracking-wide transition-colors relative ${
-                solid ? "text-foreground/80 hover:text-foreground" : "text-white/85 hover:text-white"
-              }`}
-              activeProps={{
-                className: `px-4 py-2 text-sm font-semibold tracking-wide relative ${solid ? "text-foreground" : "text-white"}`,
-              }}
-              activeOptions={{ exact: l.to === "/" }}
-            >
-              {({ isActive }) => (
-                <>
-                  {l.label}
-                  {isActive && (
-                    <span className="absolute inset-x-4 -bottom-0.5 h-0.5 bg-gold" />
-                  )}
-                </>
-              )}
-            </Link>
-          ))}
+          {navLinks.map((l) => {
+            const active = l.to === "/" ? pathname === "/" : pathname.startsWith(l.to);
+            return (
+              <Link
+                key={l.to}
+                to={l.to}
+                className={`px-4 py-2 text-sm tracking-wide transition-colors relative ${
+                  active ? "font-semibold" : "font-medium"
+                } ${solid ? "text-foreground/80 hover:text-foreground" : "text-white/85 hover:text-white"} ${
+                  active ? (solid ? "!text-foreground" : "!text-white") : ""
+                }`}
+              >
+                {l.label}
+                {active && <span className="absolute inset-x-4 -bottom-0.5 h-0.5 bg-gold" />}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="flex items-center gap-1">
