@@ -7,7 +7,7 @@ export const Route = createFileRoute("/careers")({
   head: () => ({
     meta: [
       { title: "Careers — Meridian Construction Group" },
-      { name: "description", content: "Join 3,200+ engineers, project managers and specialists building landmarks across MENA. Explore open roles at Meridian." },
+      { name: "description", content: "Join 3,200+ engineers, project managers and specialists building landmarks across Germany. Explore open roles at Meridian." },
       { property: "og:title", content: "Careers — Meridian Construction Group" },
     ],
     links: [{ rel: "canonical", href: "/careers" }],
@@ -15,13 +15,13 @@ export const Route = createFileRoute("/careers")({
 });
 
 const jobs = [
-  { title: "Senior Project Manager — High-Rise", dept: "Project Management", loc: "Dubai, UAE", type: "Full-time" },
-  { title: "Structural Engineer (Lead)", dept: "Engineering", loc: "Riyadh, KSA", type: "Full-time" },
-  { title: "MEP Coordinator", dept: "Engineering", loc: "Doha, Qatar", type: "Full-time" },
-  { title: "HSE Manager — Petrochemical", dept: "Safety", loc: "Jubail, KSA", type: "Full-time" },
-  { title: "Quantity Surveyor", dept: "Commercial", loc: "Dubai, UAE", type: "Full-time" },
-  { title: "BIM Manager", dept: "Digital", loc: "Cairo, Egypt", type: "Full-time" },
-  { title: "Site Supervisor — Infrastructure", dept: "Operations", loc: "Alexandria, Egypt", type: "Full-time" },
+  { title: "Senior Project Manager — High-Rise", dept: "Project Management", loc: "Munich, Germany", type: "Full-time" },
+  { title: "Structural Engineer (Lead)", dept: "Engineering", loc: "Stuttgart, Germany", type: "Full-time" },
+  { title: "MEP Coordinator", dept: "Engineering", loc: "Frankfurt, Germany", type: "Full-time" },
+  { title: "HSE Manager — Chemical", dept: "Safety", loc: "Ludwigshafen, Germany", type: "Full-time" },
+  { title: "Quantity Surveyor", dept: "Commercial", loc: "Munich, Germany", type: "Full-time" },
+  { title: "BIM Manager", dept: "Digital", loc: "Berlin, Germany", type: "Full-time" },
+  { title: "Site Supervisor — Infrastructure", dept: "Operations", loc: "Berlin, Germany", type: "Full-time" },
   { title: "Graduate Engineering Program 2026", dept: "Early Careers", loc: "Multiple locations", type: "Graduate" },
 ];
 

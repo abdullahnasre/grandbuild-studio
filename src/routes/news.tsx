@@ -19,10 +19,10 @@ export const Route = createFileRoute("/news")({
 });
 
 const posts = [
-  { img: c1, cat: "Announcement", date: "March 14, 2026", title: "Meridian awarded $780M Downtown Financial Center in Dubai", excerpt: "The 68-storey mixed-use tower will be the anchor of Business Bay's new financial district, targeting LEED Platinum." },
-  { img: c2, cat: "Engineering", date: "February 22, 2026", title: "Modular bridge construction: lessons from the Al-Khobar Coastal Bridge", excerpt: "How pre-cast segmental construction cut our critical-path schedule by 14 weeks on a 6.2km marine crossing." },
-  { img: c3, cat: "Safety", date: "January 30, 2026", title: "Zero-harm at Delta Petrochemical: 4.2 million hours without a lost-time incident", excerpt: "A field report on the behavioral safety program that took our LTIFR to industry-leading levels." },
-  { img: c4, cat: "Sustainability", date: "January 12, 2026", title: "Embodied carbon on the Vertika Skyline: a case study", excerpt: "The material choices, mix designs and procurement decisions that shaved 22% off baseline embodied carbon." },
+  { img: c1, cat: "Announcement", date: "March 14, 2026", title: "Meridian awarded €690M Frankfurt Skyline Financial Center", excerpt: "The 62-storey mixed-use tower will anchor Frankfurt's new financial quarter, targeting DGNB Platinum certification." },
+  { img: c2, cat: "Engineering", date: "February 22, 2026", title: "Modular bridge construction: lessons from the Rhein-Main Motorway Bridge", excerpt: "How pre-cast segmental construction cut our critical-path schedule by 14 weeks on a 4.8km river crossing." },
+  { img: c3, cat: "Safety", date: "January 30, 2026", title: "Zero-harm at Neckar Chemical: 4.2 million hours without a lost-time incident", excerpt: "A field report on the behavioral safety program that took our LTIFR to industry-leading levels." },
+  { img: c4, cat: "Sustainability", date: "January 12, 2026", title: "Embodied carbon on Altstadt Heritage Residences: a case study", excerpt: "The material choices, mix designs and procurement decisions that shaved 22% off baseline embodied carbon." },
 ];
 
 function NewsPage() {

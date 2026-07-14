@@ -3,6 +3,8 @@ import { ArrowRight, Building2, Factory, Home, Route as RouteIcon, HardHat, Comp
 import heroImg from "@/assets/hero-construction.jpg";
 import commercialImg from "@/assets/project-commercial.jpg";
 import residentialImg from "@/assets/project-residential.jpg";
+import modernHouseImg from "@/assets/project-house-modern.jpg";
+import fachwerkImg from "@/assets/project-fachwerk.jpg";
 import industrialImg from "@/assets/project-industrial.jpg";
 import infrastructureImg from "@/assets/project-infrastructure.jpg";
 import healthcareImg from "@/assets/project-healthcare.jpg";
@@ -35,12 +37,12 @@ const services = [
 ];
 
 const projects = [
-  { img: commercialImg, tag: "Commercial", title: "Marina Business Tower", loc: "Dubai, UAE", year: "2024" },
-  { img: residentialImg, tag: "Residential", title: "Vertika Skyline Residences", loc: "Riyadh, KSA", year: "2024" },
-  { img: infrastructureImg, tag: "Infrastructure", title: "Al-Khobar Coastal Bridge", loc: "Eastern Province, KSA", year: "2023" },
-  { img: industrialImg, tag: "Industrial", title: "Delta Petrochemical Plant", loc: "Doha, Qatar", year: "2023" },
-  { img: healthcareImg, tag: "Healthcare", title: "New Cairo Medical City", loc: "Cairo, Egypt", year: "2022" },
-  { img: commercialImg, tag: "Commercial", title: "Downtown Financial Center", loc: "Dubai, UAE", year: "2022" },
+  { img: commercialImg, tag: "Commercial", title: "Isar Business Tower", loc: "Munich, Germany", year: "2024" },
+  { img: residentialImg, tag: "Residential", title: "Altstadt Heritage Residences", loc: "Stuttgart, Germany", year: "2024" },
+  { img: infrastructureImg, tag: "Infrastructure", title: "Rhein-Main Motorway Bridge", loc: "Frankfurt, Germany", year: "2023" },
+  { img: modernHouseImg, tag: "Residential", title: "Feldkirchen Family Estates", loc: "Munich, Germany", year: "2023" },
+  { img: healthcareImg, tag: "Healthcare", title: "Berlin Charité Medical Wing", loc: "Berlin, Germany", year: "2022" },
+  { img: fachwerkImg, tag: "Heritage", title: "Altstadt Fachwerk Restoration", loc: "Nuremberg, Germany", year: "2022" },
 ];
 
 function HomePage() {
@@ -61,7 +63,7 @@ function HomePage() {
               with <span className="text-gold-gradient">Precision</span> & Excellence
             </h1>
             <p className="mt-8 max-w-2xl text-lg md:text-xl text-white/80 leading-relaxed">
-              Delivering innovative construction solutions for commercial, industrial, residential and infrastructure projects across the Middle East and North Africa.
+              Delivering innovative construction solutions for commercial, industrial, residential and infrastructure projects across Germany and Central Europe.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link to="/contact" className="btn-gold">Get a Free Quote <ArrowRight className="h-4 w-4" /></Link>
@@ -190,9 +192,9 @@ function HomePage() {
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
-              { name: "Khalid Al-Rashid", role: "Chairman, Rashid Holdings", quote: "Meridian delivered our flagship tower six weeks ahead of schedule. Their integrated engineering approach saved us millions." },
-              { name: "Amira Kassem", role: "CEO, Nile Realty", quote: "In fifteen years of developing across MENA, I have not worked with a more disciplined contractor. They own every detail." },
-              { name: "James Whitfield", role: "Director, Aramco Ventures", quote: "Their safety record and QA/QC on our petrochemical facility set a new bar for our supply chain." },
+              { name: "Klaus Weber", role: "Chairman, Weber Immobilien AG", quote: "Meridian delivered our flagship tower six weeks ahead of schedule. Their integrated engineering approach saved us millions." },
+              { name: "Anja Schneider", role: "CEO, Schneider Development GmbH", quote: "In fifteen years of developing across Germany, I have not worked with a more disciplined contractor. They own every detail." },
+              { name: "Markus Hoffmann", role: "Director, BASF Ventures", quote: "Their safety record and QA/QC on our chemical facility set a new bar for our supply chain." },
             ].map((t) => (
               <figure key={t.name} className="relative p-8 md:p-10 border border-border rounded-sm bg-secondary/30">
                 <Quote className="h-8 w-8 text-gold-deep" strokeWidth={1.4} />
@@ -213,7 +215,7 @@ function HomePage() {
         <div className="container-x">
           <p className="text-center text-xs uppercase tracking-[0.3em] text-muted-foreground">Trusted by leading developers, governments and investors</p>
           <div className="mt-8 grid grid-cols-2 md:grid-cols-6 gap-8 items-center">
-            {["EMAAR", "ARAMCO", "QATAR ENERGY", "DP WORLD", "MEEZAN", "NILE HOLDINGS"].map((p) => (
+            {["SIEMENS", "BASF", "DEUTSCHE BAHN", "ALLIANZ", "BMW GROUP", "VONOVIA"].map((p) => (
               <div key={p} className="text-center font-display font-bold text-sm tracking-widest text-muted-foreground/70 hover:text-charcoal transition">{p}</div>
             ))}
           </div>

@@ -46,11 +46,11 @@ export function SiteHeader() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2 text-white/80">
               <MapPin className="h-3.5 w-3.5 text-gold" />
-              Dubai • Riyadh • Doha • Cairo
+              Munich • Stuttgart • Frankfurt • Berlin
             </span>
-            <a href="mailto:contact@meridian-build.com" className="flex items-center gap-2 text-white/80 hover:text-gold transition">
+            <a href="mailto:contact@meridian-bau.de" className="flex items-center gap-2 text-white/80 hover:text-gold transition">
               <Mail className="h-3.5 w-3.5 text-gold" />
-              contact@meridian-build.com
+              contact@meridian-bau.de
             </a>
           </div>
           <Link to="/contact" className="group flex items-center gap-2 font-semibold tracking-wider uppercase text-gold hover:text-gold-soft transition">

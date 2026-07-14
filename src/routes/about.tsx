@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — Meridian Construction Group" },
-      { name: "description", content: "Founded in 2001, Meridian Construction Group has built landmarks across the Middle East and North Africa with precision engineering and integrity." },
+      { name: "description", content: "Founded in 2001, Meridian Construction Group has built landmarks across Germany and Central Europe with precision engineering and integrity." },
       { property: "og:title", content: "About — Meridian Construction Group" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
@@ -17,15 +17,15 @@ export const Route = createFileRoute("/about")({
 
 const values = [
   { Icon: Target, title: "Mission", desc: "Build enduring infrastructure that elevates communities and creates lasting value for clients, partners and generations." },
-  { Icon: Eye, title: "Vision", desc: "To be the most trusted construction partner across MENA — the standard against which the industry measures itself." },
+  { Icon: Eye, title: "Vision", desc: "To be the most trusted construction partner across Germany — the standard against which the industry measures itself." },
   { Icon: Heart, title: "Core Values", desc: "Integrity. Safety. Precision. Accountability. Craft. These five principles govern every decision we make." },
 ];
 
 const timeline = [
-  { year: "2001", event: "Founded in Dubai as a residential contractor" },
+  { year: "2001", event: "Founded in Munich as a residential contractor" },
   { year: "2007", event: "Expanded into commercial and infrastructure" },
   { year: "2012", event: "First mega-project: Al-Bahar Financial District" },
-  { year: "2016", event: "Riyadh and Doha offices open" },
+  { year: "2016", event: "Stuttgart and Frankfurt offices open" },
   { year: "2020", event: "ISO 45001 certification; zero-harm program" },
   { year: "2024", event: "400th project delivered; 3,200-strong workforce" },
 ];
@@ -36,7 +36,7 @@ function AboutPage() {
       <PageHero
         eyebrow="Our Story"
         title={<>Twenty-five years of <span className="text-gold-gradient">building trust.</span></>}
-        description="Meridian Construction Group was founded in 2001 in Dubai with a single conviction: every landmark starts with a promise kept. Today, we deliver commercial, industrial, residential and infrastructure projects across the Middle East and North Africa."
+        description="Meridian Construction Group was founded in 2001 in Munich with a single conviction: every landmark starts with a promise kept. Today, we deliver commercial, industrial, residential and infrastructure projects across Germany and Central Europe."
         crumbs={[{ label: "About" }]}
       />
 
@@ -101,11 +101,11 @@ function AboutPage() {
               "ISO 9001:2015 Quality",
               "ISO 14001 Environment",
               "ISO 45001 Safety",
-              "MEED Contractor of the Year 2023",
+              "Deutscher Baupreis 2023",
               "ENR Global Top 250",
               "LEED Accredited Firm",
-              "Dubai Chamber Trust Mark",
-              "Aramco Approved Vendor",
+              "Bauindustrie Verband Member",
+              "TÜV SÜD Certified Contractor",
             ].map((c) => (
               <div key={c} className="p-6 border border-border rounded-sm hover:border-gold hover:shadow-md transition">
                 <Award className="h-8 w-8 text-gold-deep" strokeWidth={1.4} />

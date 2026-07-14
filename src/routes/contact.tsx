@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Meridian Construction Group" },
-      { name: "description", content: "Request a consultation or a project quote. Offices in Dubai, Riyadh, Doha and Cairo." },
+      { name: "description", content: "Request a consultation or a project quote. Offices in Munich, Stuttgart, Frankfurt and Berlin." },
       { property: "og:title", content: "Contact — Meridian Construction Group" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
@@ -16,10 +16,10 @@ export const Route = createFileRoute("/contact")({
 });
 
 const offices = [
-  { city: "Dubai", country: "UAE", addr: "Sheikh Zayed Rd, Business Bay Tower 24", phone: "+971 4 555 0180", flag: "🇦🇪" },
-  { city: "Riyadh", country: "KSA", addr: "King Fahd Road, Kingdom Tower 42F", phone: "+966 11 555 2100", flag: "🇸🇦" },
-  { city: "Doha", country: "Qatar", addr: "West Bay, Corniche Business Center", phone: "+974 4 555 0700", flag: "🇶🇦" },
-  { city: "Cairo", country: "Egypt", addr: "New Administrative Capital, MU23", phone: "+20 2 555 4400", flag: "🇪🇬" },
+  { city: "Munich", country: "Germany", addr: "Maximilianstraße 24, 80539 Munich", phone: "+49 89 555 0180", flag: "🇩🇪" },
+  { city: "Stuttgart", country: "Germany", addr: "Königstraße 42, 70173 Stuttgart", phone: "+49 711 555 2100", flag: "🇩🇪" },
+  { city: "Frankfurt", country: "Germany", addr: "Mainzer Landstraße 88, 60329 Frankfurt am Main", phone: "+49 69 555 0700", flag: "🇩🇪" },
+  { city: "Berlin", country: "Germany", addr: "Unter den Linden 15, 10117 Berlin", phone: "+49 30 555 4400", flag: "🇩🇪" },
 ];
 
 function ContactPage() {
@@ -78,10 +78,10 @@ function ContactPage() {
 
           {/* Contact panel */}
           <div className="space-y-4">
-            <ContactItem Icon={Phone} title="Speak with us" value="+971 4 555 0180" hint="Sun – Thu, 08:00 – 18:00 GST" />
-            <ContactItem Icon={Mail} title="Email" value="contact@meridian-build.com" hint="We respond within one business day" />
-            <ContactItem Icon={MessageCircle} title="WhatsApp" value="+971 50 555 0180" hint="Business inquiries only" />
-            <ContactItem Icon={Clock} title="Working hours" value="Sun – Thu · 08:00 – 18:00" hint="Regional offices follow local calendars" />
+            <ContactItem Icon={Phone} title="Speak with us" value="+49 89 555 0180" hint="Mon – Fri, 08:00 – 18:00 CET" />
+            <ContactItem Icon={Mail} title="Email" value="contact@meridian-bau.de" hint="We respond within one business day" />
+            <ContactItem Icon={MessageCircle} title="WhatsApp" value="+49 151 555 0180" hint="Business inquiries only" />
+            <ContactItem Icon={Clock} title="Working hours" value="Mon – Fri · 08:00 – 18:00" hint="Regional offices follow local calendars" />
           </div>
         </div>
       </section>

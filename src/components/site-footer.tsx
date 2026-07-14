@@ -17,7 +17,7 @@ export function SiteFooter() {
               </span>
             </Link>
             <p className="mt-6 text-sm leading-relaxed text-white/60">
-              Building landmarks across the Middle East and North Africa since 2001. Precision engineering, uncompromising safety, delivered on time.
+              Building landmarks across Germany and Central Europe since 2001. Precision engineering, uncompromising safety, delivered on time.
             </p>
             <div className="mt-6 flex gap-2">
               {[Linkedin, Instagram, Facebook, Youtube].map((Icon, i) => (
@@ -47,10 +47,10 @@ export function SiteFooter() {
           <div>
             <h4 className="text-white font-display font-semibold text-sm tracking-widest uppercase mb-5">Contact</h4>
             <ul className="space-y-4 text-sm text-white/60">
-              <li className="flex gap-3"><MapPin className="h-4 w-4 shrink-0 text-gold mt-0.5" /> Sheikh Zayed Rd, Business Bay Tower 24, Dubai UAE</li>
-              <li className="flex gap-3"><Phone className="h-4 w-4 shrink-0 text-gold mt-0.5" /> +971 4 555 0180</li>
-              <li className="flex gap-3"><Mail className="h-4 w-4 shrink-0 text-gold mt-0.5" /> contact@meridian-build.com</li>
-              <li className="flex gap-3"><Clock className="h-4 w-4 shrink-0 text-gold mt-0.5" /> Sun–Thu · 08:00 – 18:00 GST</li>
+              <li className="flex gap-3"><MapPin className="h-4 w-4 shrink-0 text-gold mt-0.5" /> Maximilianstraße 24, 80539 Munich, Germany</li>
+              <li className="flex gap-3"><Phone className="h-4 w-4 shrink-0 text-gold mt-0.5" /> +49 89 555 0180</li>
+              <li className="flex gap-3"><Mail className="h-4 w-4 shrink-0 text-gold mt-0.5" /> contact@meridian-bau.de</li>
+              <li className="flex gap-3"><Clock className="h-4 w-4 shrink-0 text-gold mt-0.5" /> Mon–Fri · 08:00 – 18:00 CET</li>
             </ul>
           </div>
 
