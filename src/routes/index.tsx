@@ -192,9 +192,9 @@ function HomePage() {
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
-              { name: "Khalid Al-Rashid", role: "Chairman, Rashid Holdings", quote: "Meridian delivered our flagship tower six weeks ahead of schedule. Their integrated engineering approach saved us millions." },
-              { name: "Amira Kassem", role: "CEO, Nile Realty", quote: "In fifteen years of developing across Germany, I have not worked with a more disciplined contractor. They own every detail." },
-              { name: "James Whitfield", role: "Director, Aramco Ventures", quote: "Their safety record and QA/QC on our petrochemical facility set a new bar for our supply chain." },
+              { name: "Klaus Weber", role: "Chairman, Weber Immobilien AG", quote: "Meridian delivered our flagship tower six weeks ahead of schedule. Their integrated engineering approach saved us millions." },
+              { name: "Anja Schneider", role: "CEO, Schneider Development GmbH", quote: "In fifteen years of developing across Germany, I have not worked with a more disciplined contractor. They own every detail." },
+              { name: "Markus Hoffmann", role: "Director, BASF Ventures", quote: "Their safety record and QA/QC on our chemical facility set a new bar for our supply chain." },
             ].map((t) => (
               <figure key={t.name} className="relative p-8 md:p-10 border border-border rounded-sm bg-secondary/30">
                 <Quote className="h-8 w-8 text-gold-deep" strokeWidth={1.4} />
