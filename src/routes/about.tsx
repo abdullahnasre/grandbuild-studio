@@ -104,8 +104,8 @@ function AboutPage() {
               "MEED Contractor of the Year 2023",
               "ENR Global Top 250",
               "LEED Accredited Firm",
-              "Dubai Chamber Trust Mark",
-              "Aramco Approved Vendor",
+              "Bauindustrie Verband Member",
+              "TÜV SÜD Certified Contractor",
             ].map((c) => (
               <div key={c} className="p-6 border border-border rounded-sm hover:border-gold hover:shadow-md transition">
                 <Award className="h-8 w-8 text-gold-deep" strokeWidth={1.4} />
