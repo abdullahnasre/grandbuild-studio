@@ -1,0 +1,1 @@
+var e=`/grandbuild-studio/assets/project-commercial-CKw7uzjs.jpg`,t=`/grandbuild-studio/assets/project-residential-B_XVyExZ.jpg`,n=`/grandbuild-studio/assets/project-infrastructure-CA4oiId7.jpg`;export{t as n,e as r,n as t};
