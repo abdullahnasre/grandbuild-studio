@@ -1,0 +1,1 @@
+var e=`/grandbuild-studio/assets/project-house-modern-DvHHbbsZ.jpg`,t=`/grandbuild-studio/assets/project-fachwerk-r3XxWKg4.jpg`,n=`/grandbuild-studio/assets/project-healthcare-BBoMj-Dm.jpg`;export{t as n,e as r,n as t};
